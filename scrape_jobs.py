@@ -26,5 +26,5 @@ def scrape_jobs():
     df.to_csv('job_postings.csv', index=False)
 
 if __name__ == '__main__':
-    scrape-jobs()
+    scrape_jobs()
     
